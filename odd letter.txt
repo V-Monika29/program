@@ -12,6 +12,6 @@ for j in range(mid,l):
 for j in range(0,mid):
 	for i in range(sp):
 		print(" " ,end="")
-	a=a+atring[j]
+	a=a+string[j]
 	print(a)
 	sp=sp-1

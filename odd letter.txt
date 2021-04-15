@@ -1,0 +1,17 @@
+string=input().strip()
+l=len(string)
+mid=l//2
+a=""
+sp=l-1
+for j in range(mid,l):
+	for i in range(sp):
+		print(" ",end="")
+	a=a+string[j]
+	print(a)
+	sp=sp-1
+for j in range(0,mid):
+	for i in range(sp):
+		print(" " ,end="")
+	a=a+atring[j]
+	print(a)
+	sp=sp-1
